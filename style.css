@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.top-banar-container{
+    background-image: url(/images/donation6.jpg);
+    /* webkit-filter: blur(1px); 
+  filter: blur(1px); */
+    width: 100%;
+    height: 38.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 38.5rem;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+   
+}
+
+.top-banar{
+    text-align: center;
+    color: white;
+    z-index: 10;
+}
+
+.top-banar h1{
+    font-size: 4rem;
+}
+
+.top-banar p{
+    /* width: 40rem; */
+    width: 50%;
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+
+
+}
+
+.btn-link{
+    background-color: tomato;
+    padding: .7rem 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.donate-container{
+    margin-top: 7rem;
+    height: 500px;
+}
+
+.donate-container .donate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate-text{
+    text-align: center;
+}
+.donate-text h2{
+    font-size: 2.6rem;
+}
+.donate-text p{
+    width: 40rem;
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+}
+
+.donate-box{
+    display: flex; 
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 6.3rem; 
+    background-color: rgba(104, 96, 96, 0.04);
+    margin: .4rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: gray;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+}
+
+.box-marked{
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: rgba(255, 99, 71, .1);
+}
+
+.input-area{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-area input{
+border: none;
+border-bottom: 1px solid gray;
+text-align: center;
+font-size: 1.3rem;
+text-transform: capitalize;
+margin-bottom: 1.5rem;
+}
+
+.donate-plan-container{
+    background-color: cyan;
+    height: 600px;
+    margin-top: 7rem;
+}
+
+.plan-text{
+    text-align: center;
+}
+
+.plan-text h2{
+    font-size: 2.6rem;
+}
+
+.plan-text p{
+    /* width: 40rem; */
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+}
+
+
+
+
+.plan-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-box{
+    width: 19rem;
+    height: 17rem;
+    border: 2px solid red;
+    padding: 3rem 1rem;
+
+}
+
+.margin{
+    margin: 0 2rem;
+}
+
+.plan-box h4{
+    margin: 1.2rem 0;
+}
